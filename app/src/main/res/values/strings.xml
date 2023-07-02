@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="subtraction_button_text">-</string>
+    <string name="addition_button_text">+</string>
+    <string name="multiplication_button_text">*</string>
+    <string name="division_button_text">/</string>
+    <string name="delete_button_text">Del</string>
+    <string name="clear_button_text">C</string>
+    <string name="equal_button_text">=</string>
+    <string name="one_button_text">1</string>
+    <string name="two_button_text">2</string>
+    <string name="three_button_text">3</string>
+    <string name="four_button_text">4</string>
+    <string name="five_button_text">5</string>
+    <string name="six_button_text">6</string>
+    <string name="seven_button_text">7</string>
+    <string name="eight_button_text">8</string>
+    <string name="nine_button_text">9</string>
+    <string name="zero_button_text">0</string>
+    <string name="doublezero_button_text">00</string>
+    <string name="decimal_button_text">.</string>
+    <string name="sprite_menu_button_text">Sprites</string>
+
+
+</resources>
