@@ -14,9 +14,8 @@
         android:background="#7C066F89"
         android:paddingEnd="45dp"
         android:paddingStart="45dp"
-        android:text="@string/zero_button_text"
         android:textAlignment="viewEnd"
-        android:textSize="32sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/result_window"
 
         app:layout_constraintTop_toTopOf="parent"
@@ -45,11 +44,9 @@
         android:id="@+id/button_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:background="@color/cyan_blue"
         android:gravity="bottom"
         android:orientation="vertical"
-
         app:layout_constraintBottom_toBottomOf="parent"
         >
 
@@ -63,6 +60,7 @@
 
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/subtract_button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -70,6 +68,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/addition_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -77,6 +76,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/multiply_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -84,6 +84,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/divide_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -103,6 +104,7 @@
 
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/seven_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -110,6 +112,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/eight_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -117,6 +120,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/nine_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -124,6 +128,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/delete_Button"
                 android:layout_width="66dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -143,6 +148,7 @@
 
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/four_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -150,6 +156,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/five_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -157,6 +164,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/six_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -164,6 +172,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/clear_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -183,6 +192,7 @@
 
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/one_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -190,6 +200,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/two_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -197,6 +208,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/three_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -204,6 +216,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/equals_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -225,6 +238,7 @@
 
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/zero_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -232,6 +246,7 @@
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/double_ZeroButton"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
@@ -239,14 +254,15 @@
                 android:textSize="15sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/decimal_Button"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-
                 android:text="@string/decimal_button_text"
                 android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/sprite_MenuButton"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"

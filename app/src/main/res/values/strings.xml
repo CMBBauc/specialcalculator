@@ -4,7 +4,7 @@
     <string name="addition_button_text">+</string>
     <string name="multiplication_button_text">*</string>
     <string name="division_button_text">/</string>
-    <string name="delete_button_text">Del</string>
+    <string name="delete_button_text">AC</string>
     <string name="clear_button_text">C</string>
     <string name="equal_button_text">=</string>
     <string name="one_button_text">1</string>
