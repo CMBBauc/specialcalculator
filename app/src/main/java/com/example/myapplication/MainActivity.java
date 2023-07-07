@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String buttonText = button.getText().toString();
         String dataToCalculate = solutionWindow.getText().toString();
 
+
         if (buttonText.equals("C")){
             solutionWindow.setText("");
             resultWindow.setText("0");
@@ -68,8 +69,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if(buttonText.equals("AC")){
-            dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length()-1);
-        } else {
+            try {
+                dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length()-1);
+            } catch(Exception e){
+                dataToCalculate =  "Error: " + e;
+            }
+
+        }else {
             dataToCalculate = dataToCalculate+buttonText;
         }
 
@@ -86,10 +92,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Context context = Context.enter();
             context.setOptimizationLevel(-1);
             Scriptable scriptable = context.initStandardObjects();
-            String finalResult = context.evaluateString(scriptable, data, "Javascript", 1, null).toString();
-            return finalResult;
+            //Otherwise return final result vvv
+            return context.evaluateString(scriptable, data, "Javascript", 1, null).toString();
         } catch (Exception e){
-            return "Error";
+            return "";
         }
     }
 
